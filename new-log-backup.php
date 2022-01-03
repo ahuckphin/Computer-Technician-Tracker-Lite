@@ -60,20 +60,18 @@
 
 								UEFI BIOS
 								<br />
-								<input type="checkbox" name="uefiwork[]" value="Reset UEFI BIOS. ">
-								<label for="uefiwork[]"> Reset UEFI BIOS. </label><br>
 								<input type="checkbox" name="uefiwork[]" value="Disabled legacy boot. ">
 								<label for="uefiwork[]">Disabled legacy boot. </label><br>
 								<input type="checkbox" name="uefiwork[]" value="Enabled secure boot. ">
-								<label for="uefiwork[]">Enabled secure boot.</label><br>
+								<label for="uefiwork[]">Enabled secure boot. </label><br>
 								<input type="checkbox" name="uefiwork[]" value="Disabled fast boot. ">
-								<label for="uefiwork[]">Disabled fast boot.</label><br>
-								<input type="checkbox" name="uefiwork[]" value="Disabled RST. ">
-								<label for="uefiwork[]">Disabled RST.</label><br>
+								<label for="uefiwork[]">Disabled fast boot. </label><br>
+								<input type="checkbox" name="uefiwork[]" value="Disabled RAID. ">
+								<label for="uefiwork[]">Disabled RAID. </label><br>
 								<input type="checkbox" name="uefiwork[]" value="Disabled FN lock. ">
 								<label for="uefiwork[]">Disabled FN lock. </label><br>
 								<input type="checkbox" name="uefiwork[]" value="Boot menu showing correctly. ">
-								<label for="uefiwork[]">Boot menu showing correctly.</label><br>
+								<label for="uefiwork[]">Boot menu showing correctly. </label><br>
 								<br />
 								Windows 10
 								<br />
@@ -188,16 +186,13 @@
 								<label for="physicalwork[]"> DC power working. </label><br>
 								<input type="checkbox" name="physicalwork[]" value="Battery working. ">
 								<label for="physicalwork[]"> Battery working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="USB-A port #1 working. ">
-								<label for="physicalwork[]"> USB-A port #1 working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="USB-A port #2 working. ">
-								<label for="physicalwork[]">USB-A port #2 working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="USB-A port #3 working. ">
-								<label for="physicalwork[]"> USB-A port #3 working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="USB-A port #4 working. ">
-								<label for="physicalwork[]">USB-A port #4 working. </label><br>
+<br />
+								<input type="checkbox" name="physicalwork[]" value="USB-A port(s) working. ">
+								<label for="physicalwork[]"> USB-A port(s) working. </label><br>
+<br />
 								<input type="checkbox" name="physicalwork[]" value="SD card slot working. ">
 								<label for="physicalwork[]">SD card slot working. </label><br>
+<br />
 								<input type="checkbox" name="physicalwork[]" value="Camera working. ">
 								<label for="physicalwork[]">Camera working. </label><br>
 								<input type="checkbox" name="physicalwork[]" value="Microphone working. ">
@@ -206,24 +201,20 @@
 								<label for="physicalwork[]">Speakers working. </label><br>
 								<input type="checkbox" name="physicalwork[]" value="3.5mm jack working. ">
 								<label for="physicalwork[]">3.5mm jack working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="VGA port working. ">
-								<label for="physicalwork[]">VGA port working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="HDMI port working. ">
-								<label for="physicalwork[]">HDMI port working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="Micro HDMI port working. ">
-								<label for="physicalwork[]">Micro HDMI port working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="DisplayPort port working. ">
-								<label for="physicalwork[]">DisplayPort port working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="Mini DisplayPort port working. ">
-								<label for="physicalwork[]">Mini DisplayPort port working. </label><br>
+<br />
+								<input type="checkbox" name="physicalwork[]" value="Video out port(s) working. ">
+								<label for="physicalwork[]">Video out port(s) working. </label><br>
+<br />
 								<input type="checkbox" name="physicalwork[]" value="Wi-Fi working. ">
 								<label for="physicalwork[]">Wi-Fi working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="Trackpad working. ">
+<input type="checkbox" name="physicalwork[]" value="Ethernet working. ">
+								<label for="physicalwork[]">Ethernet working. </label><br>
+<br />
+								<input type="checkbox" name="physicalwork[]" value="Trackpad + gestures working. ">
 								<label for="physicalwork[]">Trackpad working. </label><br>
 								<input type="checkbox" name="physicalwork[]" value="Keyboard working. ">
 								<label for="physicalwork[]">Keyboard working. </label><br>
-								<input type="checkbox" name="physicalwork[]" value="Ethernet working. ">
-								<label for="physicalwork[]">Ethernet working. </label><br>
+								<br/>
 								<input type="checkbox" name="physicalwork[]" value="Screen working. ">
 								<label for="physicalwork[]">Screen working. </label><br>
 								<br />
@@ -231,7 +222,22 @@
 								<br />
 								<input type="checkbox" name="ubuntuwork[]" value="Installed Ubuntu 20.04.3. ">
 								<label for="ubuntuwork[]">Installed Ubuntu 20.04.3 </label><br>
-								<input type="checkbox" name="ubuntuwork[]" value="Run setup script file. - Installed the openssh server, which then automatically enables the sshd service. Installed tmux. Updated the repositories and upgraded all available software. Created rule in the ufw firewall to allow ssh connections. Disabled screenlock password request when screen goes to sleep. Disabled screenlock password request when Ubuntu is suspended. Disabled password authentication logins for ssh. Installed the Arduino IDE, Skype, Micorosft Teams, Microsoft Visual Studio Code from the Ubuntu Snap repositories. Added the active user to the dialout group. Installs Python Idle IDE, Scratch, and Blender. Downloaded MIT AppInventor, Zoom and Webex deb installer from source to /tmp folder, then installs. Set Windows 10 as the primary bootable operating system. Make Linux use local time. Set PSC wallpaper. Disabled Teams and Skype from launching on startup.">
+								<input type="checkbox" name="ubuntuwork[]" value="Run setup script file. - Installed the openssh server, which then automatically enables the sshd service. 
+																											Installed tmux. 
+																											Updated the repositories and upgraded all available software. 
+																											Created rule in the ufw firewall to allow ssh connections. 
+																											Disabled screenlock password request when screen goes to sleep. 
+																											Disabled screenlock password request when Ubuntu is suspended. 
+																											Disabled password authentication logins for ssh. 
+																											Installed the Arduino IDE, Skype, Micorosft Teams, Microsoft Visual Studio Code from the Ubuntu Snap repositories. 
+																											Added the active user to the dialout group. 
+																											Installed Python Idle IDE, Scratch, and Blender. 
+																											Downloaded MIT AppInventor, Zoom and Webex deb installer from source to /tmp folder, then installs. 
+																											Set Windows 10 as the primary bootable operating system. 
+																											Make Linux use local time. 
+																											Set PSC wallpaper. 
+																											Disabled Teams and Skype from launching on startup. 
+																											Replaced #DefaultTimeoutStopSec=90s with DefaultTimeoutStopSec=5s in system.conf.">
 								<label for="ubuntuwork[]">Run setup script file.</label><br>
 								<input type="checkbox" name="ubuntuwork[]" value="Tested Arduino. ">
 								<label for="ubuntuwork[]">Tested Arduino.</label><br>
