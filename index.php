@@ -38,18 +38,20 @@
 				<h3><a href="new-log.php">New Log</a></h3>
 				<br />
 				<br />
-				<h3><a href="new-log-backup.php">New Log - Backup</a></h3>
+				<h3><a href="create-master-image.php">Technician Checklist for Creating Master Image </a></h3>
 				<br />
 				<br />
-				<h3><a href="new-log-restore.php">New Log - Restore</a></h3>
+				<h3><a href="inspector-checklist.php">Inspector Checklist </a></h3>
 				<br />
 				<br />
-				 
+				<h3><a href="find-details.php">Find Details </a></h3>
+				<br />
+				<br />
 				<p><b>Disclaimer: </b></p>
 				<p>1. Warning messages relating to .php files will apear during usage of this web application. </p>
 				<p>2. For editing information and for viewing multiple rows of information from database at one time, please see database directly - </p>
 				<p><a href="/phpmyadmin/index.php?route=/database/structure&server=1&db=computer-technician-tracker-database">/phpmyadmin/index.php?route=/database/structure&server=1&db=computer-technician-tracker-database </a></p>
-				<p>3. Computer Technician Tracker web application last updated 2021-November-14.</p>
+				<p>3. Computer Technician Tracker web application last updated 2022-March-27.</p>
 				
 			</div>
 		</div>
